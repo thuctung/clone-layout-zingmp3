@@ -1,0 +1,147 @@
+.header{
+	grid-column: 1/4;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.header-top{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #171010e3;
+	padding-top: 20px;
+}
+.image-zing{
+	margin-left: 70px;
+	background-color: #2f2a2ae3;
+    width: 199px;
+    height: 66px;
+	background-image: url("https://zmp3-static.zadn.vn/skins/zmp3-v5.2/images/logo-mp-3.svg");
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.search{
+	display: flex;
+	flex-direction: row;
+	margin-left: 90px;
+	width: 35%;
+	flex-grow: 1;
+	background-color: #131010;
+    color: #7f7777;
+	padding: 15px 30px; 
+	height: 20px;
+	box-shadow: .4px .4px 5px rgba(255, 255, 255, .4);
+}
+.search >i{
+	padding-right:  5px;
+	color: #7f7777;
+}
+input{
+	color: #7f7777;
+	border: none;
+	background: none;
+	outline: none;
+	border: none;
+	width: 100%;
+}
+
+input:focus + .fa-backspace {
+	opacity: 1;
+}
+.fa-backspace{
+	opacity: 0;
+}
+.user{
+	flex-grow: 1;
+	margin-left: 30px;
+	font-size: 16px;
+}
+.fas{
+	color: #d7dbe6;
+}
+.user > a{
+	padding-left: 10px; 
+	text-decoration: none;
+	color: #d7dbe6;
+	font-weight: 400;
+	transition: 300ms;
+}
+.user > a:hover{
+	color: green;
+}
+
+.user :hover{
+	transform: translateY(5px);
+}
+
+.toggle{
+	margin: 15px 30px 0 0; 
+	flex-grow: 1;
+	user-select: none;
+	transition: 300ms;
+}
+
+#turnon:active{
+	transform: translateY(5px);
+}
+
+.toggle .light{
+	position: absolute;
+	right:  20px;
+	top:80px;
+	width: 200px;
+	height: 80px;
+	text-align: center;
+	background-color: #443e3e;
+	display: none;
+	border-radius: 10px;
+}
+
+.toggle .turnoff{
+	display:block;
+}
+
+.light .fa-cog{
+	position: absolute;
+	left: 0px;
+    top: 16px;
+	margin-top: 10px;
+	padding: 5px 10px 0 0px;
+	width: 130px;
+	user-select: none;
+}
+
+.light .radio{
+	position: absolute;
+	right: -66px;
+    top: 13px;
+	-webkit-appearance:none;
+	appearance:none;
+	height: 20px;
+	width: 50px;
+	background-color: grey;
+	border-radius: 40px;
+	margin-top: 18px; 
+	position: relative;
+}
+.light .radio:checked{
+	background-color: #62159a;
+}
+
+.light .radio:before{
+	content: '';
+	width: 18px;
+	height: 19px;
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;
+	top:0;
+	left: 0;
+	transition: 300ms;
+}
+
+.light .radio:checked:before{
+	left: 32px;
+}
+	
