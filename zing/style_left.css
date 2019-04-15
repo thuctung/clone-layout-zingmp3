@@ -1,0 +1,8 @@
+.sidebar-left{
+	position:fixed;
+	top:22.5%;
+	left: 0%;
+	width: 15%;
+	background-color: #292424;
+	height: 100%;
+}

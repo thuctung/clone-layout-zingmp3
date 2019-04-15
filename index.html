@@ -6,7 +6,10 @@
 	<link rel="stylesheet" type="text/css" href="./zing/style.css">
 	<link rel="stylesheet" type="text/css" href="./zing/style_header.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+	<link rel="stylesheet" type="text/css" href="./zing/style_left.css">
+	<link rel="stylesheet" type="text/css" href="./zing/style_main.css">
+	<link rel="stylesheet" type="text/css" href="./zing/style_right.css">
+	<link rel="stylesheet" type="text/css" href="./zing/style_footer.css">
 </head>
 <body>
 	<div class="container">
@@ -26,7 +29,7 @@
 				<div class="toggle">
 					<i class="fas fa-chevron-down" id="turnon"></i>
 					<div class="light" id="div_togle">
-						<i class="fas fa-cog"> Nền sáng</i>
+						<i class="fas fa-cog" id="fa-cog"> Nền sáng</i>
 						<input type="checkbox" class="radio" id="cbkToggle">
 					</div>
 				</div>
@@ -47,25 +50,14 @@
 			</div>
 		</div>
 		<!-- Done header -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<div class="silebar-left">Left</div>
-		<div class="silebar-left">Main</div>
-		<div class="sidebar-right">Right</div>
-		<div class="footer">footer</div>
+		<div class="sidebar-left sidebar"></div>
+		<div class="main" id ="body">
+			
+			<div class="body" ></div>
+			
+		</div>
+		<div class="sidebar-right sidebar"></div>
+		
 	</div>
 
 	<script src="./zing/header.js"></script>

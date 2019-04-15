@@ -1,0 +1,13 @@
+	.main{
+	background-color: #292424;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.body{
+	float: center;
+	width:70%;
+	height: 900px;
+	background-color: white;
+}
