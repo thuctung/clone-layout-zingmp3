@@ -11,14 +11,16 @@ var user = document.getElementById('user');
 var headerBot = document.getElementById('header_bottom');
 var fscog = document.getElementById('fa-cog');
 var sidebar = document.getElementsByClassName('sidebar');
+var turnoff = document.getElementsByClassName('turnoff');
 var body = document.getElementById('body');
+var onTop = document.getElementById('onTop');
+var mess = document.getElementById('mess');
 
 // hiện ẩn chức năng bật tắt đèn
 tunr.onclick = function () {
 	// body...
 	bat.classList.toggle('turnoff');
-}
-
+}	
 // xóa giá trị trong ô tìm kiếm
 clear.onclick = function () {
 	// body...
@@ -41,6 +43,8 @@ cbk.onclick = function(e){
 		bat.style.background="#e6e3e3";
 		fscog.style.color = "black";
 		body.style.background = "#e6e3e3";
+		onTop.style.color = "rgb(81,82,76)";
+		mess.style.color = "rgb(81,82,76)";
 		
 	}
 	else{
@@ -55,6 +59,8 @@ cbk.onclick = function(e){
 		bat.style.background="#443e3e";
 		fscog.style.color = "grey";
 		body.style.background = "#292424";
+		onTop.style.color = x;
+		mess.style.color = x;
 	}
 }
 

@@ -1,8 +1,23 @@
 .sidebar-left{
 	position:fixed;
-	top:22.5%;
+	top:22.4%;
 	left: 0%;
 	width: 15%;
 	background-color: #292424;
 	height: 100%;
+}
+
+.fa-facebook-messenger{
+	color: white;
+	position: fixed;
+	top:50%;
+	left: 15px;
+}
+
+.video{
+	height: 150px;
+	width: 15%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
 }
