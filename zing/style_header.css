@@ -96,8 +96,8 @@ input:focus + .fa-backspace {
 	background-color: #443e3e;
 	display: none;
 	border-radius: 10px;
+	transition: 200ms;
 }
-
 .toggle .turnoff{
 	display:block;
 }
@@ -109,8 +109,13 @@ input:focus + .fa-backspace {
 	margin-top: 10px;
 	padding: 5px 10px 0 0px;
 	width: 130px;
-	user-select: none;
+	user-select: none
+
 }
+
+.toggle .light:hover .fa-cog{
+ 	color:grey;
+ }
 
 .light .radio{
 	position: absolute;
@@ -145,3 +150,48 @@ input:focus + .fa-backspace {
 	left: 32px;
 }
 	
+/*header bottom
+
+----------------------------
+*/
+
+.header-bottom{
+	display: flex;
+    height: 52px;
+    background-color: #292121;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.listMenu{
+	display: flex;
+	list-style-type: none;
+	padding:0;
+	overflow: none;
+	color: rgb(206, 206, 206);
+	font-weight: 100;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+li{
+	padding: 15px;
+	margin-right: 20px; 
+	float: left;
+	border-bottom: 2px solid transparent;
+	transition: all 200ms;
+}
+
+li:hover{
+    border-bottom: 2px solid rgb(101, 80, 158);
+}
+li >a{
+	font-size: 14px;
+    font-weight: 500;
+	text-decoration: none;
+	color: rgb(206, 206, 206);
+}
+
+li:hover a{
+	color: rgb(110, 85, 180);
+}
