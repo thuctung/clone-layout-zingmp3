@@ -28,12 +28,12 @@ clear.onclick = function () {
 } 
 
 // tắt sáng tối màu nền
-var x ="white";
+var y ="white";
 cbk.onclick = function(e){
 	if(this.checked){
-		headerTop.style.background = x;
-		image_zing.style.backgroundColor = x;
-		search.style.backgroundColor = x;
+		headerTop.style.background = y;
+		image_zing.style.backgroundColor = y;
+		search.style.backgroundColor = y;
 		search.style.boxShadow = ".4px .4px 3px #5f5757";
 		userIcon.style.color = "#535863";
 		user.style.color = "#535863";
