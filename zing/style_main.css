@@ -9,13 +9,13 @@
 .body{
 	float: center;
 	width:70%;
-	height: 900px;
+	height: 100%;
 	background-color: black;
 }
 
 .picture{
 	width: 100%;
-	height: 315px;background-image: url('anh1.jpg');
+	height: 315px;background-image: url('anh/anh1.jpg');
 	background-size: cover;
 	background-position: center;
 	transition: all 400ms ease-in-out;
@@ -90,6 +90,7 @@
 	overflow: hidden; 
     border: 1px solid black;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .anh{
@@ -98,7 +99,7 @@
 	transition:  0.5s;
 	background-size: cover;
 	background-position: center;
-	 transition:  0.5s;
+	 transition:  0.7s;
 }
 
 .div-chua:hover .anh{
@@ -107,3 +108,155 @@
 	
 }
 
+
+/*CSS ANH TOP 100*/
+.top100{
+	width: 90%;
+	height: 680px;
+    margin: 36px 5% 5% 5%;
+	border-bottom: 0.4px solid #4e4444;
+}
+
+.Line1{
+	width: 100%;
+	height: 300px;
+	margin-bottom: 10px;
+}
+.top100 >a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.top100 >a:hover{
+	color: rgb(110, 85, 180);
+}
+.imageTop100{
+	width: 100%;
+	height:100%;
+	margin-top: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.div-anhTop100{
+	width: 100%;
+	height: 260px;
+	margin: 0px 15px;
+	border-radius: 2px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+}
+
+.div-anhTop100:hover{
+	position: relative;
+}
+
+.anhTop100{
+	height: 210px;
+	width: 100%;
+	margin-bottom: 10px; 
+	overflow: hidden;
+}
+.img{
+	width: 100%;
+	height: 211px;
+	transition:  0.7s;
+}
+
+.anhTop100:hover .img{
+	transform: scale(1.08);
+	opacity: 0.7;
+}
+
+.fa-play-circle{
+	position: absolute;
+	top:37%;
+	left: 40%;
+	color: white;
+	font-size: 40px;
+	background-color: rgb(110, 85, 180);
+	border-radius: 50%;
+	transition: 0.7s;
+	opacity: 0;
+}
+
+.anhTop100:hover .fa-play-circle{
+	opacity: 1;
+}
+
+.tieude{
+	height: 10px;
+	width: 100%
+}
+
+.tieude > a{
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 1.5rem;
+}
+
+.tieude > a:hover{
+	color: rgb(110, 85, 180);
+}
+
+/*CSS Bài hát mới*/
+.baihatmoi{
+	width: 90%;
+	height: 300px;
+	margin: 36px 5% 5% 5%;
+}
+.TittleNewSong{
+	float: left;
+}
+.a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.a :hover{
+	color: rgb(110, 85, 180);
+}
+
+.playall{
+	float: right;
+}
+
+.btnPlay{
+	font-size: 12px;
+    border-radius: 2px;
+    line-height: 24px;
+    border: 0;
+    padding: 4px 8px;
+    background-color: #65509e;
+    color: #fcfcfc;
+    text-transform: initial;
+    cursor: pointer;
+	width: 120px;
+	height: 35px;
+	font-weight: 500;
+}
+.btnPlay:hover {
+	background-color: #fcfcfc!important;
+    border-color: #fcfcfc!important;
+    color: #6e55b4!important;
+}
+.btnPlay:hover .fa-play{
+	color: black;
+}
+
+.listNewSong{
+	clear: both;
+	width: 100%;
+	height: 250px;
+	transform: translateY(20px);
+}

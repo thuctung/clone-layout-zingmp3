@@ -21,3 +21,20 @@
 .hideBtn{
 	opacity: 1;
 }
+
+.scroll:before{
+	content: "Về đầu";
+	width: 100px;
+	height: 20px;
+	position: absolute;
+	color: white;
+	bottom:40%;
+	right: 5%;
+	opacity: 0;
+	transition: 500ms all;
+}
+
+.scroll:hover:before{
+	transform: translateX(30px);
+	opacity: 1;
+}

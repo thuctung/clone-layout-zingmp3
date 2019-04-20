@@ -59,8 +59,8 @@ cbk.onclick = function(e){
 		bat.style.background="#443e3e";
 		fscog.style.color = "grey";
 		body.style.background = "#292424";
-		onTop.style.color = x;
-		mess.style.color = x;
+		onTop.style.color = y;
+		mess.style.color = y;
 	}
 }
 

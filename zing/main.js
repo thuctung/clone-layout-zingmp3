@@ -10,16 +10,16 @@ var btnPicture4 = document.getElementById('anh4');
 
 
 btnPicture1.onclick = function(){
-	divPicture.style.backgroundImage = 'url(./zing/anh1.jpg)';
+	divPicture.style.backgroundImage = 'url(./zing/anh/anh1.jpg)';
 }
 btnPicture2.onclick = function(){
-	divPicture.style.backgroundImage = 'url(./zing/anh2.jpg)';
+	divPicture.style.backgroundImage = 'url(./zing/anh/anh2.jpg)';
 }
 btnPicture3.onclick = function(){
-	divPicture.style.backgroundImage = 'url(./zing/anh3.jpg)';
+	divPicture.style.backgroundImage = 'url(./zing/anh/anh3.jpg)';
 }
 btnPicture4.onclick = function(){
-	divPicture.style.backgroundImage = 'url(./zing/anh4.jpg)';
+	divPicture.style.backgroundImage = 'url(./zing/anh/anh4.jpg)';
 }
 
 
@@ -30,7 +30,7 @@ function changePictureOnTime(){
 		x++
 		setTimeout(function(){
 			if(x<=4){
-				divPicture.style.backgroundImage = 'url(./zing/anh'+x+'.jpg)';
+				divPicture.style.backgroundImage = 'url(./zing/anh/anh'+x+'.jpg)';
 				change();
 			}
 			else{
