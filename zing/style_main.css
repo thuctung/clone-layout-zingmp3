@@ -437,7 +437,7 @@
 }
 
 .anhchonloc{
-	width: 213px;
+	width: 24%;
 	height: 118px;
 	margin-right:  10px;
 	margin-left: 10px;
@@ -462,7 +462,7 @@
 	opacity: 1;
 }
 .imgchonloc{
-	width: 213px;
+	width: 100%;
 	height: 118px;
 	transition: 500ms;
 }
@@ -494,7 +494,7 @@
 }
 
 .childAlbum{
-	width: 210px;
+	width: 24%;
 	height: 280px;
 	display: flex;
 	flex-direction: column;
@@ -502,7 +502,7 @@
 }
 
 .anhnenalbum{
-	width: 210px;
+	width: 100%;
 	height: 210px;
 	border-radius: 2px;
 	overflow: hidden;
@@ -529,6 +529,10 @@
 	font-size: 25px;
 	top:40%;
 	left: 40%;
+	display: none;
+}
+.childAlbum:hover .playalbum{
+	display: block;
 }
 .namesong{
 	cursor: pointer;
@@ -576,7 +580,7 @@
 .videoleft{
 	float: left;
 	width: 48%;
-	height: 320px;
+	height: 350px;
 }
 .inforVideo{
 	width: 100%; 
@@ -622,4 +626,144 @@
 
 .nameVideo >p:hover{
 	color: rgb(110, 85, 180);
+}
+
+/*CSS NGHỆ SĨ NỔI BẬT*/
+.nghesinoibat{
+	width: 95%;
+	height: 390px;
+	margin: 40px 0% 5% 2.5%;
+	border-radius: 2px;
+}
+
+.tieudenghesinoibat{
+	clear: both;
+	width: 100%;
+	height: 50px;
+}
+.tieudenghesinoibat>a{
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.tieudenghesinoibat>a:hover{
+	color: rgb(110, 85, 180);
+}
+.listnghesi{
+	width:100%;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	padding: 0 15px;
+}
+
+.div-anhnghesi{
+	width: 23%;
+	height: 280px;
+	text-align: center;
+	border-radius: 2px;
+	background-color: #0e0d0d;
+	margin-right: 2%;
+}
+
+
+.pictureSinger{
+	margin-top: 10%;
+	margin-left: 16%;
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	left: 15%;
+	overflow: hidden;
+}
+.pictureInfo{
+	width:100%;
+	height: 100%;
+	border-radius: 50%;
+	transition: 700ms;
+}
+
+.pictureSinger:hover .pictureInfo{
+	transform: scale(1.05);
+	opacity: 0.7;
+}
+.tenghesi{
+	margin-top:40px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	cursor: pointer;
+}
+.tenghesi:hover{
+	color: rgb(110, 85, 180);
+}
+
+/*CSS footer*/
+.footer{
+	width: 95%;
+	height: 75px;
+	margin: 40px 0% 5% 2.5%;
+	border-radius: 2px;
+	background-image: url('./anh/footer.jpg');
+	position: relative;
+}
+
+.imgfooter{
+	position: absolute;
+	top:20%;
+	left: 20%;
+}
+
+.footer>p{
+	position: absolute;
+	top:30%;
+	left: 25%;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	user-select: none;
+}
+.danhgia{
+	font-size: 17px;
+	font-weight: 600;
+	position: absolute;
+	top:30%;
+	right: 5%;
+	height: 100%;
+	user-select: none;
+	color: white;
+}
+
+/*css quảng cáo*/
+.quangcao{
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+
+.imgquangcao{
+	position: absolute;
+	top:20%;
+	left: 40%;
+	user-select: none;
+}
+.quangcao>p{
+	position: absolute;
+	top:34%;
+	left: 45%;
+	color: #807474;
+	font-size: 13px;
+	user-select: none;
+}
+
+.quangcao>a{
+	position: absolute;
+	top:34%;
+	left: 60%;
+	color: #807474;
+	font-size: 13px;
+	text-decoration: none;
 }
