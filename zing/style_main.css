@@ -173,7 +173,7 @@
 	opacity: 0.7;
 }
 
-.fa-play-circle{
+.anhTop100> .fa-play-circle{
 	position: absolute;
 	top:37%;
 	left: 40%;
@@ -206,6 +206,8 @@
 .tieude > a:hover{
 	color: rgb(110, 85, 180);
 }
+
+
 
 /*CSS Bài hát mới*/
 .baihatmoi{
@@ -250,7 +252,7 @@
     border-color: #fcfcfc!important;
     color: #6e55b4!important;
 }
-.btnPlay:hover .fa-play{
+.btnPlay:hover >.fa-play{
 	color: black;
 }
 
@@ -258,5 +260,212 @@
 	clear: both;
 	width: 100%;
 	height: 250px;
-	transform: translateY(20px);
+	padding-top: 28px;
+}
+
+.listSongLeft{
+	height: 250px;
+	width: 50%;
+	float: left;
+}
+
+.listSongRight{
+	border-left: 1px solid #232020; 
+	height: 250px;
+	width: 47%;
+	float: right;
+	padding-left: 5px;
+}
+
+.listSong{
+	color: white;
+	list-style: none;	
+}
+
+.listSong> .li{
+	width: 100%;
+	height: 50px;
+	border: none;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+.listSong> .li:hover{
+	background-color: #211e1ead;
+}
+
+.imageSongnew{
+	height: 42px;
+	width: 13%;
+	float: left;
+	margin-top:5px;
+}
+
+.listSong> .li:hover .imageSongnew{
+	position: relative;
+}
+
+.image-song{
+	height: 42px;
+	width: 41px;
+}
+
+.imageSongnew >.playsong{
+	cursor: pointer;
+	font-size: 20px;
+	position: absolute;
+	top:25%;
+	left: 23%;
+	color: white;
+	font-weight: 600;
+	opacity: 0;
+	transition: 300ms;
+}
+
+.li:hover .playsong{
+	opacity: 1;
+}
+
+.titleSongnew{
+	height: 42px;
+	width: 60%;
+	float: left;
+	margin-top:5px;
+}
+
+.namesong{
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.8rem;
+}
+
+.namesinger{
+	font-size: 12px;
+	color: 	#9c9898;
+}
+
+.iconchucnang{
+	height: 42px;
+	width: 27%;
+	float: left;
+	margin-top:5px;
+	color: white;
+	padding-top: 5px;
+	opacity: 0;
+	transition: 300ms;
+}
+.customIcon{
+	padding: 0 7px;
+}
+
+.li:hover .iconchucnang {
+	opacity: 1;
+}
+
+.fas{
+	cursor: pointer;
+}
+
+
+/*CSS CHỦ ĐỀ THỂ LOẠI*/
+.chude-theloai{
+	width: 95%;
+	height: 440px;
+	margin: 40px 0% 5% 2.5%;
+	border-radius: 1px;
+	background-color: #3c323285;
+}
+
+.tenchudetheloai{
+	width: 45%;
+	height: 60px;
+	float: left;
+	padding-top: 35px;
+	padding-left: 2%;
+}
+
+.tenchudetheloai> a{
+	color: white;
+	font-size: 24px;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.tenchudetheloai> a:hover{
+	color: rgb(110, 85, 180);
+}
+
+.chonchucnang{
+	margin-top: 10px;
+	height: 30px;
+	width: 40%;
+	padding-top: 40px;
+	padding-right: 10px;
+	text-align: right;
+	float: right;
+}
+.chonchucnang >a{
+	padding:5px;
+	font-size: 17px;
+	text-decoration: none;
+	color: grey;
+	font-weight: 600;
+	cursor: pointer;	
+}
+
+.chonchucnang >a:hover{
+	color: #9877ff;
+}
+
+.chonchucnang >a:visited{
+	color: #9877ff;
+}
+
+.chonloc{
+	clear: both;
+	width: 100%;
+	height: 300px;
+}
+
+.chonlocLine1{
+	margin: 30px 0 3% 3%;	
+	width: 95%;
+	height: 50%;
+	display: flex;
+	flex-direction: row;
+}
+
+.anhchonloc{
+	width: 213px;
+	height: 118px;
+	margin-right:  10px;
+	margin-left: 10px;
+	border-radius: 2px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.anhchonloc:hover{
+	position: relative;
+}
+.anhchonloc >h4{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 40%;
+	color: white;
+	font-size: 17px;
+	opacity: 0;
+}
+.anhchonloc:hover h4{
+	opacity: 1;
+}
+.imgchonloc{
+	width: 213px;
+	height: 118px;
+	transition: 500ms;
+}
+
+.anhchonloc:hover .imgchonloc{
+	transform: scale(1.09);
 }
