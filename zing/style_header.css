@@ -4,6 +4,7 @@
 	width: 100%;
 	position: fixed;
 	top:0px;
+	z-index: 2;
 }
 .header-top{
 	display: flex;
@@ -160,6 +161,7 @@ input:focus + .fa-backspace {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 .listMenu{
 	display: flex;

@@ -81,6 +81,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: flex-start;
+	z-index: 1;
 }
 
 .div-chua{
@@ -105,7 +106,7 @@
 .div-chua:hover .anh{
 	transform: scale(1.05);
 	opacity: 0.9;
-	
+	z-index: 1;
 }
 
 
@@ -673,8 +674,8 @@
 .pictureSinger{
 	margin-top: 10%;
 	margin-left: 16%;
-	width:150px;
-	height: 150px;
+	width:70%;
+	height: 50%;
 	border-radius: 50%;
 	left: 15%;
 	overflow: hidden;
